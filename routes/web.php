@@ -1,0 +1,15 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Desenvolvido por: Guilherme Leite de Bessa
+| Criação de rota para minerar dados
+*/
+
+Route::get ('/','MineracaoController@downloadUrl');
+
+
+
